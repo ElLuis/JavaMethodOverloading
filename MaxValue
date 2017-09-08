@@ -1,0 +1,27 @@
+package ElLuis; 
+  
+public class TestMethodOverloading { 
+  
+    public static void main(String[] args) { 
+        System.out.println("The maximum of 3 and 4 is " + max(3,4)); 
+        System.out.println("The maximum of 3.5 and 4.0 is " + max(3.5,4.0)); 
+         
+    } 
+  
+    public static double max(double d, double e) { 
+  
+        if (d > e) 
+            return d; 
+        else 
+            return e; 
+    } 
+  
+    public static int max(int i, int j) { 
+  
+        if (i > j) 
+            return i; 
+        else 
+            return j; 
+    } 
+  
+}
